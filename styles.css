@@ -1,0 +1,50 @@
+.wrapper {
+  display: flex;
+  margin-bottom: 100px;
+}
+
+.child {
+  display: inline-block;
+  margin: 5px;
+  padding: 10px;
+  width: 200px;
+  height: 300px;
+  border: 1px solid black;
+  text-align: center;
+}
+
+.scroller {
+  overflow-y: scroll;
+  scrollbar-color: gray;
+  scrollbar-width: thin;
+}
+
+ul {
+  margin-bottom: 0;
+  text-decoration: none;
+}
+
+.courseUnit {
+  border: 1px solid black;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+}
+
+.courseUnit {
+  max-height: inherit;
+}
+
+.alternate {
+  background: rgb(221, 239, 221);
+}
+
+#available_courses:onclick {
+  background-color: deepskyblue;
+}
+
+.totalCredits {
+  text-align: center;
+}

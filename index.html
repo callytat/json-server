@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Course Selection Evaluation Project</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js"></script>
+  </head>
+  <body>
+    <h1>Class Selection Page</h1>
+    <div class="wrapper">
+      <div class="child scroller">
+        <header class="available"><strong>Available Courses</strong></header>
+        <div
+          class="card"
+          id="available_courses"
+          onclick="changeColorWhenSelected()"
+        >
+          <li class="courseUnit" id="MyColorPicker">
+            <ul>
+              Course name
+            </ul>
+            <ul>
+              Course type
+            </ul>
+            <ul>
+              Course credit
+            </ul>
+          </li>
+          <li class="courseUnit" id="MyColorPicker">
+            <ul>
+              Course name
+            </ul>
+            <ul>
+              Course type
+            </ul>
+            <ul>
+              Course credit
+            </ul>
+          </li>
+          <li class="courseUnit" id="MyColorPicker">
+            <ul>
+              Course name
+            </ul>
+            <ul>
+              Course type
+            </ul>
+            <ul>
+              Course credit
+            </ul>
+          </li>
+          <li class="courseUnit" id="MyColorPicker">
+            <ul>
+              Course name
+            </ul>
+            <ul>
+              Course type
+            </ul>
+            <ul>
+              Course credit
+            </ul>
+          </li>
+        </div>
+      </div>
+
+      <div class="child">
+        <header class="selected"><strong>Selected Courses</strong></header>
+        <div class="card" id="selected_courses">
+          <li class="courseUnit">
+            <ul>
+              Course name
+            </ul>
+            <ul>
+              Course type
+            </ul>
+            <ul>
+              Course credit
+            </ul>
+          </li>
+          <li class="courseUnit">
+            <ul>
+              Course name
+            </ul>
+            <ul>
+              Course type
+            </ul>
+            <ul>
+              Course credit
+            </ul>
+          </li>
+          <li class="courseUnit">
+            <ul>
+              Course name
+            </ul>
+            <ul>
+              Course type
+            </ul>
+            <ul>
+              Course credit
+            </ul>
+          </li>
+          <li class="courseUnit">
+            <ul>
+              Course name
+            </ul>
+            <ul>
+              Course type
+            </ul>
+            <ul>
+              Course credit
+            </ul>
+          </li>
+        </div>
+      </div>
+    </div>
+
+    <footer class="totalCredit">
+      Total Credit:
+      <input type="submit" value="Submit" onclick="unitsAlert();" />
+    </footer>
+  </body>
+</html>
